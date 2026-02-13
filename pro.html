@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+      <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+
+
+li:hover{
+  text-decoration: underline  yellow;
+ box-shadow: 1px 1px 20px 3px rgb(255, 226, 60) 
+} 
+
+
+/* main */
+.main{
+ background-color: rgba(0, 0, 0, 0.47);
+ position: absolute;
+ width: 100%;
+
+}
+
+
+
+/* backgroundimage */
+.backimg{
+ position: absolute;
+ top: 0%;
+ right: 0%;
+ bottom: 0%;
+ left: 0%;
+background: url(programming-background-with-person-working-with-codes-computer_23-2150010125.avif) center/cover no-repeat;
+filter: blur(2px);
+width: 100%;
+}
+
+/* profile */
+.main2{
+  display: flex;
+ color: white;
+ position: absolute;
+ margin-top: 10%;
+ margin-left: 16%;
+ 
+}
+
+/*image */
+.con1 img {
+    width: 50%;
+   border-radius: 50%;
+    transition: transform 0.4s ease;
+    margin-left: 15%;
+}
+
+.con1 img:hover {
+    transform: scale(1.08);
+    box-shadow: 5px 5px 25px 5px yellow;
+}
+    
+
+.main3{
+    display: flex;
+ color: white;
+ position: absolute;
+ margin-top: 35%;
+ margin-left: 5%;
+ 
+}
+.c1{
+  background-color: rgba(0, 0, 0, 0.678);
+  position: relative;
+  top: 38%;
+  left: 17%;
+  box-shadow: 1px 1px 20px 3px rgb(255, 226, 60) 
+  
+}
+
+.c2{
+  background-color: rgba(0, 0, 0, 0.678);
+  position: relative;
+  top: 55%;
+  left: 50%;
+  box-shadow: 1px 1px 20px 3px rgb(255, 226, 60) 
+  
+}
+
+.con2 img {
+    width: 50%;
+   border-radius: 50%;
+    transition: transform 0.4s ease;
+    margin-left: 15%;
+   box-shadow: 5px 5px 25px 5px yellow;
+}
+.div{
+  margin-top: 20%;
+}
+ 
+.intro{
+position: absolute;
+top: 190%;
+color: white;
+left: 40%;
+text-align: center;
+}
+
+/* main4 */
+.main4{
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  top: 200%;
+  color: white;
+  left: 10%;
+  width: 100%;
+ 
+}
+.column1{
+  box-shadow: 1px 1px 20px 3px;
+}
+
+.column1:hover{
+  transform: scale(1.1);
+  transition: 0.56s;
+  box-shadow: 1px 1px 20px 3px yellow;
+}
+.column2{
+  box-shadow: 1px 1px 20px 3px;
+}
+.column2:hover{
+  transform: scale(1.1);
+  transition: 0.56s;
+  box-shadow: 1px 1px 20px 3px yellow;
+}
+.column3{
+  box-shadow: 1px 1px 20px 3px;
+}
+.column3:hover{
+  transform: scale(1.1);
+  transition: 0.56s;
+  box-shadow: 1px 1px 20px 3px yellow;
+}
+
+
+@media screen and (max-width: 576px) {
+
+  /* About section */
+  .main3 {
+    position: relative;
+    flex-direction: column;
+    margin-top: 500px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+
+  .main{
+    position: relative !important;
+    width: 100% !important;
+    
+  }
+  .con2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .con2 img {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .c1,
+  .c2 {
+    position: relative;
+    width: 60% !important;
+    height: auto;
+    left: 0;
+    top: 0;
+    margin: 10px auto;
+  }
+
+  .div {
+    margin-top: 30px;
+  }
+
+  /* Intro */
+  .intro {
+    position: relative;
+    top: auto;
+    left: 0;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  /* Services */
+  .main4 {
+    position: relative;
+    top: auto;
+    left: 0;
+    width: 100%;
+    
+  }
+
+  .main4 .row {
+    flex-direction: column;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    width: 100% !important;
+    margin-left: 8%;
+  }
+   .navbar-toggler{
+  background-color: orange;
+  border-radius: 10%;
+  text-decoration: none;
+ }
+
+ .my-form{
+  width: 100% !important;
+  margin-left: 10% !important;
+ }
+ 
+ .time{
+ margin-top: 5%;
+ width: 80% !important;
+  position: absolute !important;
+  padding: 0% !important;
+  
+ }
+
+
+}
+body {
+  overflow-x: hidden;
+}
+
+
+.intro1{
+  margin-top: 10%;
+  margin-left: 45%;
+  
+}
+
+
+
+
+
+
+
+
+
+</style>
+    
+<body class="bg-dark"  >
+  <!-- image -->
+<div class="backimg"></div>
+
+
+  <!-- navbar -->
+  <div class="main">
+ <header class="header" >
+    <nav class="navbar navbar-expand-lg " >
+  <div class="container" style="width: 100%;">
+    <a class="navbar-brand text-white" href="#"> <span  class="bg-warning rounded p-2 text-white  " >   My </span>protofolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  m-auto ">
+        <li class="nav-item">
+          <a class="nav-link active text-white " href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">About </a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link text-white" href="#">work </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="#">contact</a>
+        </li>
+          <button class="btn btn-outline-warning text-uppercase" > Let's talk</button>
+    </div>
+          
+
+  </div>
+</nav>
+ </header>  
+ </div>
+ 
+
+ 
+ <!-- contact  -->
+ <div class="main2">
+<div>
+     <p class="text-uppercase"> Hellow i'm</p>
+   <h1 style="font-size: 50px;"> Frontend& <br>
+      <span class="text-warning"> developer </span> </h1>
+      <p> Hi i am Md Nasrif Ansari ,a passionate web developer based in the <br>
+       india.Welcome to my protofolio.</p>
+       <button class=" btn btn-outline-warning text-uppercase " type="button"> view protofolio </button>
+      </div>
+         <div class="con1">
+         <img src="WhatsApp Image 2025-12-11 at 03.09.59_87352119.jpg" >
+         </div>
+ </div>
+
+ <!-- contact1 -->
+<div class="main3">
+
+  <div class="con2">
+    <div class="c1 w-5" style="width: 18%;height: 20%; border-radius: 50%; text-align: center;">
+      <h1 class="text-warning"> 4+</h1>
+      <p> complete project</p>
+    </div>
+
+    <div class="c2 w-5" style="width: 18%;height: 20%; border-radius: 50%; text-align: center;">
+      <h1 class="text-warning"> 6+</h1>
+      <p> Month experence.</p>
+    </div>
+     
+         <img src="WhatsApp Image 2025-12-11 at 03.09.59_87352119.jpg" >
+         </div>
+         <div class="div">
+          <p class="text-uppercase">let me introduce myself</p>
+          <h1 style="font-size: 50px; color: rgb(255, 179, 39);">  About me</h1>
+          <h4> A story of hardwork and preseverance</h4>
+          <p> Hi,I am Md Nasrif Ansari, a web developer and designer specializing in <br>
+             creating visually engaging,user-friendly websites. My expertise<br>
+              blends innovative design with robust functionality to bring your <br>
+             digital ideas to life.</p>
+
+             <h4> Contact</h4>
+             <p>  Do you have fancy saying hi to me or you want to get started with <br>
+               your project and you need my help? Feel free to Contact me.</p>
+              <h5 class="text-warning"> @Nasrif_ansari786</h5>
+              <button type="button" class="btn btn-outline-warning text-uppercase"> Hire me</button>
+         </div>
+</div>
+
+
+<!-- intro    -->
+<div class="intro">
+    <p class="text-uppercase">  what i will do for you.</p>
+    <h3 class="text-warning"> Services</h3>
+</div>
+
+
+<!-- main4 -->
+ <div class="main4">
+   
+  <div class="container  " style="margin-top: 3%; padding: 5%; width: 100%;"  >
+  
+
+    <div class="row" style="gap: 2rem;">
+    <div class=" column1 col-md-4 col-sm-4 text-white rounded  text-center py-3" style=" width: auto; ">
+
+      <i class="fa-solid fa-desktop  text-warning" style="font-size: 30px;" ></i>
+       <div class="card-body"> 
+        <h3> Frontend</h3>
+        <p> Offering tailored Frontend services to craft<br>
+            vissually stunning, user-friendly websites that<br>
+              enhance your brand's presence.</p>
+       </div>
+
+       </div>
+
+
+     <div class=" column2 col-lg-4 col-md-6 col-sm-12 text-white rounded  text-center py-3" style=" width: auto; " >
+
+      <i class="fa-solid fa-pen-ruler  text-warning  " style="font-size: 30px;" ></i>
+       <div class="card-body"> 
+        <h3> Backend </h3>
+        <p> I can use Python, React and Django<br>
+             For backend development</p>
+       </div>
+
+    </div>
+     
+
+      <div class=" column3 col-lg-4 col-md-6 col-sm-12 text-white rounded  text-center py-3 " style=" width: auto;">
+
+     <i class="fa-solid fa-file-code text-warning" style="font-size: 30px;"   ></i>
+       <div class="card-body"> 
+      
+        <h3>Web Development </h3>
+        <p> Offering expert web development services to <br>
+          create custom, scalable websites with seamless <br>
+           functionality and modern design.</p>
+       </div>
+  </div>
+  
+ </div>
+
+<!-- intro1 -->
+<div class="intro1" style="padding-bottom: 5%;">
+   <p class="text-uppercase "> get in touch</p>
+    <h3 class="text-warning "> contact</h3>
+</div>
+
+
+
+<!-- conntact form -->
+<form class="bg-warning rounded was-validated my-form" style="padding: 5%; width: 50%; margin-left: 25%;" action="https://www.linkedin.com/feed/update/urn:li:activity:7406637512535740416">
+
+
+
+  <div class="form-floating text-dark">
+  <input type="text" class="form-control"  id="your name"    placeholder="enter Your name" name="Your name" required>
+  <label for="Your Name">Your Name</label>
+   <div class="valid-feedback"> your Name is valid</div>
+        <div class="invalid-feedback"> Please Enter your Name </div>
+
+ </div>
+
+
+ <div class="form-floating text-dark">
+  <input type="text" class="form-control"  id="email"    placeholder="enter email" name="email" required>
+  <label for="email">Email</label>
+   <div class="valid-feedback"> your email is valid</div>
+        <div class="invalid-feedback"> Please Enter your email </div>
+
+ </div>
+
+ <div class="form-floating text-dark">
+  <input type="text" class="form-control"  id="Phone number"    placeholder="Phone numbe" name="Phone numbe" required>
+  <label for="Phone Number">Phone Numeber</label>
+   <div class="valid-feedback"> Your Phone number is valid</div>
+        <div class="invalid-feedback"> Please Enter your Phone numbe</div>
+
+ </div>
+
+
+
+ <div class="form-floating text-dark">
+ <textarea  class="form-control" id="text" placeholder="Enter comment" name="comment"   ></textarea>
+ <label for="comment"> comment</label>
+  
+
+ </div>
+
+ <button type="submit" class="btn btn-outline-dark   " style="margin-top: 5%; margin-left: 40%;">Submit</button>
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+<!-- date -->
+<div class="time " style=" padding: 10%;  width: 100%; margin-right: 100%;">
+ <button type="button" class="btn btn-outline-warning text-uppercase" onclick="dispalydate()">  Today Date is </button>
+ <p id="demo" class=" text text-warning" style=" margin-left: 30%; margin-top: 10%;"> </p>
+</div>
+<script>
+  function dispalydate() {
+     document.getElementById("demo").innerHTML= Date() ;
+  }
+</script>
+
+
+
+  
+  
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
